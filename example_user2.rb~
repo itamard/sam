@@ -1,5 +1,5 @@
 class String
-
-  def 
-  end
-end
+   def shuffle
+     self.split('').?.?
+   end
+ end
