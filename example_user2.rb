@@ -1,5 +1,5 @@
 class String
    def shuffle
-     self.split('').?.?
+     self.split('').shuffle.join
    end
  end
