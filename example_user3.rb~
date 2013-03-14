@@ -1,0 +1,5 @@
+class Hash
+   def my_hash
+     self.first
+   end
+ end
