@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 describe "Static pages" do
-balbalablablab
+change
   subject { page }
 
   shared_examples_for "all static pages" do
