@@ -4,6 +4,7 @@ describe "User pages" do
 
   subject { page }
 
+
    describe "signup" do
 
     before { visit signup_path }
@@ -34,6 +35,8 @@ describe "User pages" do
       it "should create a user" do
         expect { click_button submit }.to change(User, :count).by(1)
       end
+
+
 
       describe "after saving the user" do
         before { click_button submit }
