@@ -15,8 +15,8 @@ end
 def edit
 end
 
-  def index
-    @users = User.paginate(page: params[:page])
+def index
+  @users = User.paginate(page: params[:page])
   end
 
 def update
