@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title><%= full_title(yield(:title)'s website) %></title>
+    <title><%= full_title(yield(:title)) %></title>
     <%= stylesheet_link_tag    "application", media: "all" %>
     <%= javascript_include_tag "application" %>
     <%= csrf_meta_tags %>
@@ -17,6 +17,7 @@
       <%= yield %>
       <%= render 'layouts/footer' %>
     <!--  <%= debug(params) if Rails.env.development? %> -->
+
     </div>
   </body>
 </html>

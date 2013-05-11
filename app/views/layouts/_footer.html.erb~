@@ -7,7 +7,13 @@
     <ul>
       <li><%= link_to "About",   about_path %></li>
       <li><%= link_to "Contact", contact_path %></li>
-      <li><a href="http://news.railstutorial.org/">News</a></li>
+      <li><a href="http://www.ynet.co.il/">News</a></li>
+      <li><a href="http://www.sport5.co.il/">Sport</a></li>
+
     </ul>
+
   </nav>
+
+<a href="https://twitter.com/share" class="twitter-share-button" data-url="https://sam1.herokuapp.com/" data-text="Check out this site..." data-via="itamarbarca">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 </footer>
