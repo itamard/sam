@@ -1,4 +1,6 @@
 <% if signed_in? %>
+<table cellpadding="20">
+<td valign="baseline">
   <div class="row">
     <aside class="span4">
       <section>
@@ -11,18 +13,22 @@
         <%= render 'shared/micropost_form' %>
       </section>
     </aside>
-  </div>  
+  </div>
+</td>
+<td>
     <div class="span8">
       <h3>Posts:</h3>
       <%= render 'shared/feed' %>
     </div>
   </div>
+</td>
+</table>
 <% else %>
 <div class="center hero-unit">
   <h1>Welcome!</h1>
 
   <h2>
-    This is the the home page!
+    and this is just the home page...
   </h2>
 
   <%= link_to "Sign up now!", signup_path, class: "btn btn-large btn-primary" %>
