@@ -5,12 +5,14 @@
       <h1>
         <%= gravatar_for @user %>
         <%= @user.name %>
-aa
       </h1>
     </section>
     <section>
       <%= render 'shared/stats' %>
     </section>
+      <section>
+        <%= render 'shared/_micropost_fol_form' %>
+      </section>
   </aside>
   <div class="span8">
     <%= render 'follow_form' if signed_in? %>
