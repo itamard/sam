@@ -6,7 +6,6 @@
 <textarea  :content rows="4" cols="20" placeholder = "@<%= @user.name %>">
 </textarea>
 <button type="button" onclick="alert('Posted!')" >Post</button>
-         <%= f.submit "Post", class: "btn btn-large btn-primary" %>
-  </div>
-
+       
+</div>
 

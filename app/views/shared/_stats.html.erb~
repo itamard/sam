@@ -6,6 +6,9 @@
     </strong>
     following
   </a>
+     <section>
+        <%= render 'shared/micropost_fol_form' %>
+      </section>
   <a href="<%= followers_user_path(@user) %>">
     <strong id="followers" class="stat">
       <%= @user.followers.count %>

@@ -10,9 +10,8 @@
     <section>
       <%= render 'shared/stats' %>
     </section>
-      <section>
-        <%= render 'shared/micropost_fol_form' %>
-      </section>
+
+
   </aside>
   <div class="span8">
     <%= render 'follow_form' if signed_in? %>
@@ -22,7 +21,6 @@
       <ul class="microposts">
         <%= render @microposts %>
       </ul>
-
       <%= will_paginate @microposts %>
 
     <% end %>

@@ -2,7 +2,7 @@
   <%= link_to gravatar_for(feed_item.user), feed_item.user %>
   <dir class="user">
     <%= link_to feed_item.user.name, feed_item.user %>
-  </dir>
+
   <dir class="content"><%= feed_item.content %></dir>
   <dir class="timestamp">
     Posted <%= time_ago_in_words(feed_item.created_at) %> ago.
@@ -12,4 +12,6 @@
                                      data: { confirm: "Delete this post?" },
                                      title: feed_item.content %>
   <% end %>
+    </dir>
+
 </li>

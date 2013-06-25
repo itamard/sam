@@ -12,6 +12,9 @@
       <section>
         <%= render 'shared/micropost_form' %>
       </section>
+      <section>
+        <%= render 'shared/micropost_fol_form' %>
+      </section>
     </aside>
   </div>
 </td>
